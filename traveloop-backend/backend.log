@@ -1,0 +1,122 @@
+
+> traveloop-backend@1.0.0 dev
+> nodemon --exec ts-node src/server.ts
+
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Traveloop backend running on port 4000
+Error: Unauthenticated
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:60:12
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/cities?search=Tokyo [31m500[0m 10.652 ms - 49[0m
+Error: Unauthenticated
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:60:12
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/cities [31m500[0m 1.678 ms - 49[0m
+[0mPOST /api/users/sync [32m200[0m 196.777 ms - 411[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 452.120 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 530.380 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.726 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 4.049 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.797 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 7.516 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 10.197 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 6.280 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 2.971 ms - 49[0m
+[0mPOST /api/trips [32m201[0m 6.210 ms - 333[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.257 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 3.127 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 1.254 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 4.124 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.293 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 2.245 ms - 49[0m
