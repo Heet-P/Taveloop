@@ -120,3 +120,1380 @@ Error: Incorrect arguments to mysqld_stmt_execute
     at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
     at processTicksAndRejections (node:internal/process/task_queues:105:5)
 [0mGET /api/trips [31m500[0m 2.245 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 180.637 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 1.299 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 201.404 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 1.975 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 1.645 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.327 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 3.463 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 4.064 ms - 49[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ enable debugging { debug: true }
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ enable debugging { debug: true }
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Traveloop backend running on port 4000
+[0mGET /api/users/me/saved-destinations [36m304[0m 541.161 ms - -[0m
+[0mGET /api/users/me [36m304[0m 812.720 ms - -[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 760.243 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getCommunityFeed (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\community.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/community?sort=latest [31m500[0m 8.561 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getCommunityFeed (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\community.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/community?sort=latest [31m500[0m 2.634 ms - 49[0m
+[0mGET /api/users/me [36m304[0m 7.240 ms - -[0m
+[0mGET /api/users/me [36m304[0m 3.906 ms - -[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 13.600 ms - 49[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 13.300 ms - -[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 5.868 ms - 49[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 4.951 ms - -[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.384 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 2.702 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 2.197 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.196 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 2.083 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips?status=ongoing [31m500[0m 2.552 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips?status=upcoming [31m500[0m 1.895 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips?status=completed [31m500[0m 2.231 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 2.970 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.409 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 4.603 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.365 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 3.142 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 2.758 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.215 ms - 49[0m
+[0mPOST /api/users/sync [32m200[0m 7.252 ms - 411[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 2.958 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 2.215 ms - 49[0m
+[0mPOST /api/users/sync [32m200[0m 4.417 ms - 411[0m
+[0mPOST /api/trips [32m201[0m 4.637 ms - 329[0m
+[0mGET /api/trips/3 [32m200[0m 5.470 ms - 260[0m
+[0mGET /api/trips/3 [36m304[0m 2.073 ms - -[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities?search=V [31m500[0m 1.604 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities?search=Ve [31m500[0m 1.539 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities?search=Ven [31m500[0m 1.541 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities?search=Veni [31m500[0m 1.552 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities?search=Venic [31m500[0m 1.549 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities?search=Venice [31m500[0m 1.472 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 2.032 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 4.540 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 2.363 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.314 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.008 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.129 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 2.220 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getCommunityFeed (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\community.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/community?sort=latest [31m500[0m 2.711 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getCommunityFeed (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\community.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/community?sort=latest [31m500[0m 1.478 ms - 49[0m
+[0mGET /api/users/me [32m200[0m 3.223 ms - 411[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 5.674 ms - 49[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 5.584 ms - -[0m
+[0mGET /api/users/me [36m304[0m 4.074 ms - -[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 2.837 ms - 49[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 2.112 ms - -[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getCommunityFeed (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\community.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/community?sort=latest [31m500[0m 2.672 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getCommunityFeed (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\community.controller.ts:9:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/community?sort=latest [31m500[0m 1.461 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 2.900 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 2.666 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 4.151 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 4.026 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at searchCities (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\cities.controller.ts:52:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:56:9
+[0mGET /api/cities [31m500[0m 2.091 ms - 49[0m
+Error: Incorrect arguments to mysqld_stmt_execute
+    at getTrips (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\controllers\trips.controller.ts:76:31)
+    at Layer.handleRequest (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\router\lib\route.js:157:13)
+    at attachUser (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\src\middleware\auth.ts:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/trips [31m500[0m 3.348 ms - 49[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ enable debugging { debug: true }
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+Traveloop backend running on port 4000
+Error: Unauthenticated
+    at C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\@clerk\clerk-sdk-node\src\clerkExpressRequireAuth.ts:60:12
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+[0mGET /api/cities?search=Mumbai [31m500[0m 11.905 ms - 49[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ suppress logs { quiet: true }
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Traveloop backend running on port 4000
+[0mGET /api/trips [33m401[0m 6.308 ms - 40[0m
+[0mGET /api/trips [32m200[0m 933.902 ms - 1019[0m
+[0mPOST /api/users/sync [32m200[0m 888.953 ms - 411[0m
+[0mGET /api/trips?status=ongoing [32m200[0m 4.415 ms - 26[0m
+[0mGET /api/trips?status=upcoming [32m200[0m 4.467 ms - 1019[0m
+[0mGET /api/trips?status=completed [32m200[0m 3.714 ms - 26[0m
+[0mGET /api/trips?status=ongoing [36m304[0m 3.491 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.708 ms - -[0m
+[0mGET /api/trips/3 [36m304[0m 5.600 ms - -[0m
+[0mGET /api/trips/3 [36m304[0m 3.283 ms - -[0m
+[0mGET /api/cities?search=V [32m200[0m 2.844 ms - 190[0m
+[0mGET /api/cities?search=Ve [32m200[0m 2.155 ms - 190[0m
+[0mGET /api/cities?search=Ven [32m200[0m 1.519 ms - 26[0m
+[0mGET /api/cities?search=Veni [32m200[0m 1.525 ms - 26[0m
+[0mGET /api/cities?search=Venic [32m200[0m 2.570 ms - 26[0m
+[0mGET /api/cities?search=Venice [32m200[0m 1.802 ms - 26[0m
+[0mGET /api/cities?search=M [32m200[0m 1.876 ms - 1180[0m
+[0mGET /api/cities?search=Mu [32m200[0m 1.922 ms - 26[0m
+[0mGET /api/cities?search=Mum [32m200[0m 1.657 ms - 26[0m
+[0mGET /api/cities?search=Mumb [32m200[0m 1.547 ms - 26[0m
+[0mGET /api/cities?search=Mumba [32m200[0m 2.102 ms - 26[0m
+[0mGET /api/cities?search=Mumbai [32m200[0m 1.426 ms - 26[0m
+[0mGET /api/cities?search=M [36m304[0m 1.940 ms - -[0m
+[0mGET /api/cities?search=S [32m200[0m 1.983 ms - 1509[0m
+[0mGET /api/cities?search=m [32m200[0m 1.736 ms - 1180[0m
+[0mGET /api/cities?search=mU [32m200[0m 1.629 ms - 26[0m
+[0mGET /api/cities?search=mUM [32m200[0m 2.666 ms - 26[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ enable debugging { debug: true }
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (8) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/cities.controller.ts(210,75): error TS2304: Cannot find name 'OsmTags'.
+src/controllers/cities.controller.ts(221,19): error TS2304: Cannot find name 'mapOsmCategory'.
+src/controllers/cities.controller.ts(222,22): error TS2552: Cannot find name 'buildDescription'. Did you mean 'buildOtmDescription'?
+src/controllers/cities.controller.ts(223,18): error TS2304: Cannot find name 'estimateCost'.
+src/controllers/cities.controller.ts(224,19): error TS2304: Cannot find name 'estimateDuration'.
+
+    at createTSError (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [ 2304, 2304, 2552, 2304, 2304 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ suppress logs { quiet: true }
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Traveloop backend running on port 4000
+[0mGET /api/cities?search=Tokyo [33m401[0m 6.960 ms - 40[0m
+[0mGET /api/cities?search=M [32m200[0m 478.485 ms - 781[0m
+[0mGET /api/cities?search=Mu [32m200[0m 239.464 ms - 26[0m
+[0mGET /api/cities?search=Mum [32m200[0m 26.560 ms - 26[0m
+[0mGET /api/cities [32m200[0m 4.418 ms - 2126[0m
+[0mGET /api/trips [32m200[0m 11.622 ms - 728[0m
+[0mGET /api/cities [36m304[0m 4.233 ms - -[0m
+[0mGET /api/trips [36m304[0m 4.244 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [32m200[0m 2.616 ms - 41901[0m
+[0mGET /api/cities [36m304[0m 3.618 ms - -[0m
+[0mGET /api/trips [36m304[0m 6.478 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 6.496 ms - 411[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.696 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.152 ms - -[0m
+[0mGET /api/trips [36m304[0m 5.164 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 6.321 ms - 411[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.459 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ override existing { override: true }
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ enable debugging { debug: true }
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+Traveloop backend running on port 4000
+[0mGET /api/cities [32m200[0m 404.153 ms - 2086[0m
+[0mGET /api/trips [36m304[0m 481.107 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 424.658 ms - 411[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 1.649 ms - -[0m
+[0mGET /api/trips [36m304[0m 5.466 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.975 ms - -[0m
+[0mGET /api/community?sort=latest [32m200[0m 8.810 ms - 26[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.591 ms - -[0m
+[0mGET /api/users/me [32m200[0m 5.651 ms - 411[0m
+[0mGET /api/trips [36m304[0m 9.207 ms - -[0m
+[0mGET /api/users/me [36m304[0m 3.703 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 10.301 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.357 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 2.286 ms - -[0m
+[0mPUT /api/users/me [32m200[0m 5.489 ms - 480[0m
+[0mGET /api/cities [36m304[0m 2.132 ms - -[0m
+[0mGET /api/trips [36m304[0m 4.539 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.425 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.811 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.670 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.954 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.855 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 4.779 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 1.928 ms - -[0m
+[0mGET /api/community?sort=liked [32m200[0m 2.263 ms - 26[0m
+[0mGET /api/community?sort=copied [32m200[0m 2.958 ms - 26[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.327 ms - -[0m
+[0mGET /api/users/me [32m200[0m 4.470 ms - 480[0m
+[0mGET /api/trips [36m304[0m 5.305 ms - -[0m
+[0mGET /api/users/me [36m304[0m 3.404 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 7.475 ms - -[0m
+[0mGET /api/trips [36m304[0m 5.896 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 3.784 ms - -[0m
+[0mPUT /api/users/me [32m200[0m 2.455 ms - 480[0m
+[0mGET /api/trips [36m304[0m 2.755 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.429 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.159 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.676 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.397 ms - -[0m
+[0mGET /api/cities [36m304[0m 4.221 ms - -[0m
+[0mGET /api/trips [36m304[0m 4.574 ms - -[0m
+[0mGET /api/cities [36m304[0m 4.114 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.157 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.437 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 3.438 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.081 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.026 ms - -[0m
+[0mGET /api/trips [36m304[0m 1.948 ms - -[0m
+[0mGET /api/trips/3 [32m200[0m 5.107 ms - 226[0m
+[0mGET /api/trips/3 [36m304[0m 3.265 ms - -[0m
+[0mGET /api/cities?search=M [32m200[0m 2.270 ms - 767[0m
+[0mGET /api/cities?search=MU [32m200[0m 1.903 ms - 26[0m
+[0mGET /api/cities?search=M [36m304[0m 1.778 ms - -[0m
+[0mGET /api/cities?search=Mu [36m304[0m 1.847 ms - -[0m
+[0mGET /api/cities?search=Mum [36m304[0m 1.447 ms - -[0m
+[0mGET /api/cities?search=Mumb [32m200[0m 2.242 ms - 26[0m
+[0mGET /api/cities?search=S [32m200[0m 2.147 ms - 978[0m
+[0mGET /api/cities?search=SQ [32m200[0m 1.840 ms - 26[0m
+[0mGET /api/cities?search=S [36m304[0m 2.114 ms - -[0m
+[0mGET /api/cities?search=P [32m200[0m 2.212 ms - 552[0m
+[0mGET /api/cities?search=PA [32m200[0m 2.113 ms - 124[0m
+[0mGET /api/cities?search=PAR [32m200[0m 1.843 ms - 124[0m
+[0mGET /api/cities?search=PARI [32m200[0m 2.233 ms - 124[0m
+[0mGET /api/cities?search=PARIS [32m200[0m 1.789 ms - 124[0m
+[0mGET /api/cities?search=m [32m200[0m 1.686 ms - 767[0m
+[0mGET /api/cities?search=mu [32m200[0m 1.958 ms - 26[0m
+[0mGET /api/cities?search=mum [32m200[0m 1.825 ms - 26[0m
+[0mGET /api/cities?search=mumb [32m200[0m 1.557 ms - 26[0m
+[0mGET /api/cities?search=mumba [32m200[0m 1.999 ms - 26[0m
+[0mGET /api/cities?search=mumbai [32m200[0m 1.721 ms - 26[0m
+[0mGET /api/budget/trip/3 [32m200[0m 7.060 ms - 85[0m
+[0mGET /api/budget/trip/3 [36m304[0m 3.525 ms - -[0m
+[0mGET /api/checklist/trip/3 [32m200[0m 4.121 ms - 26[0m
+[0mGET /api/checklist/trip/3 [36m304[0m 2.231 ms - -[0m
+[0mGET /api/notes/trip/3 [32m200[0m 4.020 ms - 26[0m
+[0mGET /api/notes/trip/3 [36m304[0m 2.385 ms - -[0m
+[0mGET /api/budget/trip/3 [36m304[0m 3.973 ms - -[0m
+[0mGET /api/budget/trip/3 [36m304[0m 3.016 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.208 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.378 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.497 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.316 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.500 ms - -[0m
+[0mGET /api/trips/2 [32m200[0m 2.480 ms - 316[0m
+[0mGET /api/trips/2 [36m304[0m 2.656 ms - -[0m
+[0mGET /api/budget/trip/2 [36m304[0m 3.740 ms - -[0m
+[0mGET /api/budget/trip/2 [36m304[0m 3.685 ms - -[0m
+[0mGET /api/cities?search=s [32m200[0m 1.850 ms - 978[0m
+[0mGET /api/cities?search=D [32m200[0m 1.459 ms - 450[0m
+[0mGET /api/cities?search=Dh [32m200[0m 1.788 ms - 26[0m
+[0mGET /api/cities?search=Dha [32m200[0m 1.544 ms - 26[0m
+[0mGET /api/cities?search=Dhar [32m200[0m 1.432 ms - 26[0m
+[0mGET /api/cities?search=Dhara [32m200[0m 1.787 ms - 26[0m
+[0mGET /api/cities?search=Dharav [32m200[0m 1.468 ms - 26[0m
+[0mGET /api/cities?search=Dharavi [32m200[0m 1.642 ms - 26[0m
+[0mGET /api/cities?search=M [36m304[0m 2.536 ms - -[0m
+[0mGET /api/cities?search=Mu [36m304[0m 1.725 ms - -[0m
+[0mGET /api/cities?search=Mumbd [33m401[0m 54710.544 ms - 40[0m
+[0mGET /api/cities?search=Mum [33m401[0m 55060.098 ms - 40[0m
+[0mGET /api/cities?search=Mumbdai [33m401[0m 54504.659 ms - 40[0m
+[0mGET /api/cities?search=Mumbda [33m401[0m 54539.703 ms - 40[0m
+[0mGET /api/cities?search=Mumb [33m401[0m 54866.446 ms - 40[0m
+[0mGET /api/cities?search=Mumba [33m401[0m 54105.637 ms - 40[0m
+[0mGET /api/trips [36m304[0m 118.257 ms - -[0m
+[0mGET /api/trips [36m304[0m 1.698 ms - -[0m
+[0mGET /api/cities [36m304[0m 352.329 ms - -[0m
+[0mGET /api/cities [36m304[0m 1.199 ms - -[0m
+[0mGET /api/users/me [32m200[0m 3.995 ms - 480[0m
+[0mGET /api/trips [36m304[0m 5.284 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 4.971 ms - -[0m
+[0mGET /api/users/me [36m304[0m 4.152 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.531 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 2.661 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.952 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 1.620 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.194 ms - -[0m
+[0mGET /api/trips [36m304[0m 1.980 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.356 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.863 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.748 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.174 ms - -[0m
+[0mGET /api/cities [36m304[0m 1.820 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.342 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.163 ms - -[0m
+[0mGET /api/trips/2 [36m304[0m 3.876 ms - -[0m
+[0mGET /api/trips/2 [36m304[0m 2.441 ms - -[0m
+[0mGET /api/cities [33m401[0m 0.753 ms - 40[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ suppress logs { quiet: true }
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ enable debugging { debug: true }
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Traveloop backend running on port 4000
+[0mGET /api/trips/2 [36m304[0m 259.397 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 2.224 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 408.026 ms - 480[0m
+[0mGET /api/cities/32 [36m304[0m 6.762 ms - -[0m
+[0mGET /api/cities/32/discover [32m200[0m 1908.562 ms - 4367[0m
+[0mPOST /api/activities [32m201[0m 9.693 ms - 387[0m
+[0mGET /api/trips/2 [32m200[0m 4.332 ms - 622[0m
+[0mGET /api/cities/32 [32m200[0m 3.205 ms - 4031[0m
+[0mGET /api/cities/32 [36m304[0m 2.485 ms - -[0m
+[0mGET /api/cities/32 [36m304[0m 5.040 ms - -[0m
+[0mPOST /api/activities [32m201[0m 5.748 ms - 212[0m
+[0mGET /api/trips/2 [32m200[0m 3.451 ms - 737[0m
+[0mGET /api/cities/32 [36m304[0m 4.291 ms - -[0m
+[0mGET /api/cities/32 [36m304[0m 2.559 ms - -[0m
+[0mPOST /api/activities [32m201[0m 5.266 ms - 212[0m
+[0mGET /api/trips/2 [32m200[0m 3.409 ms - 852[0m
+[0mGET /api/cities/32 [36m304[0m 3.254 ms - -[0m
+[0mGET /api/cities/32 [36m304[0m 2.308 ms - -[0m
+[0mPOST /api/activities [32m201[0m 6.043 ms - 402[0m
+[0mGET /api/trips/2 [32m200[0m 3.544 ms - 957[0m
+[0mGET /api/cities/32 [36m304[0m 3.275 ms - -[0m
+[0mGET /api/cities/32 [36m304[0m 2.192 ms - -[0m
+[0mGET /api/cities?search= [36m304[0m 3.172 ms - -[0m
+[0mGET /api/cities?search=v [32m200[0m 3.163 ms - 1375[0m
+[0mGET /api/cities?search=va [32m200[0m 2.256 ms - 858[0m
+[0mGET /api/cities?search=vad [32m200[0m 2.521 ms - 529[0m
+[0mGET /api/cities?search=vado [32m200[0m 2.274 ms - 429[0m
+[0mGET /api/cities?search=vadod [32m200[0m 1.808 ms - 222[0m
+[0mGET /api/cities?search=vadoda [32m200[0m 2.712 ms - 125[0m
+[0mGET /api/cities?search=vadodar [32m200[0m 2.176 ms - 125[0m
+[0mPOST /api/stops [32m201[0m 10.296 ms - 262[0m
+[0mGET /api/trips/2 [32m200[0m 2.835 ms - 1155[0m
+[0mDELETE /api/activities/2 [32m200[0m 6.463 ms - 28[0m
+[0mGET /api/trips/2 [32m200[0m 3.156 ms - 1040[0m
+[0mDELETE /api/activities/2 [33m404[0m 2.782 ms - 46[0m
+[0mDELETE /api/activities/2 [33m404[0m 2.592 ms - 46[0m
+[0mDELETE /api/activities/2 [33m404[0m 2.508 ms - 46[0m
+[0mGET /api/cities/41 [36m304[0m 2.422 ms - -[0m
+[0mGET /api/cities/41/discover [32m200[0m 969.489 ms - 48[0m
+[0mGET /api/cities/41/discover [36m304[0m 330.355 ms - -[0m
+[0mGET /api/cities/41/discover [36m304[0m 330.478 ms - -[0m
+[0mGET /api/cities/41/discover [36m304[0m 938.099 ms - -[0m
+[0mGET /api/cities/41/discover [36m304[0m 926.326 ms - -[0m
+[0mGET /api/trips/2 [36m304[0m 4.502 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 4.826 ms - 480[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.587 ms - -[0m
+[0mGET /api/cities/41 [36m304[0m 2.447 ms - -[0m
+[0mGET /api/cities/41/discover [36m304[0m 930.495 ms - -[0m
+[0mGET /api/cities?search= [36m304[0m 2.715 ms - -[0m
+[0mGET /api/cities?search=L [32m200[0m 3.310 ms - 2239[0m
+[0mGET /api/cities?search=La [32m200[0m 2.471 ms - 721[0m
+[0mGET /api/cities?search=Las [32m200[0m 2.737 ms - 138[0m
+[0mGET /api/cities?search=Las+ [32m200[0m 735.634 ms - 252[0m
+[0mPOST /api/stops [32m201[0m 5.524 ms - 276[0m
+[0mGET /api/trips/2 [32m200[0m 3.684 ms - 1252[0m
+[0mGET /api/cities/115 [32m200[0m 2.376 ms - 167[0m
+[0mGET /api/cities/115/discover [32m200[0m 1520.997 ms - 4706[0m
+[0mPOST /api/activities [32m201[0m 6.046 ms - 460[0m
+[0mGET /api/trips/2 [32m200[0m 3.603 ms - 1370[0m
+[0mGET /api/cities/115 [32m200[0m 2.784 ms - 4361[0m
+[0mGET /api/cities/115 [36m304[0m 2.844 ms - -[0m
+[0mGET /api/trips/2 [36m304[0m 5.095 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 5.296 ms - 480[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.683 ms - -[0m
+[0mGET /api/budget/trip/2 [32m200[0m 12.815 ms - 214[0m
+[0mGET /api/budget/trip/2 [36m304[0m 4.838 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ override existing { override: true }
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ enable debugging { debug: true }
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Traveloop backend running on port 4000
+[0mGET /api/admin/users [33m403[0m 416.535 ms - 52[0m
+[0mGET /api/admin/stats [33m403[0m 476.612 ms - 52[0m
+[0mGET /api/admin/charts/top-cities [33m403[0m 416.697 ms - 52[0m
+[0mGET /api/admin/charts/trips-per-day [33m403[0m 417.592 ms - 52[0m
+[0mGET /api/admin/charts/activity-categories [33m403[0m 429.198 ms - 52[0m
+[0mPOST /api/users/sync [32m200[0m 450.755 ms - 481[0m
+[0mGET /api/admin/charts/top-cities [32m200[0m 38.560 ms - 191[0m
+[0mGET /api/admin/users [32m200[0m 48.557 ms - 152[0m
+[0mGET /api/admin/charts/activity-categories [32m200[0m 45.092 ms - 62[0m
+[0mGET /api/admin/charts/trips-per-day [32m200[0m 50.054 ms - 71[0m
+[0mPOST /api/users/sync [32m200[0m 20.000 ms - 481[0m
+[0mGET /api/admin/stats [32m200[0m 64.119 ms - 117[0m
+[0mGET /api/admin/users [36m304[0m 10.248 ms - -[0m
+[0mGET /api/admin/charts/top-cities [36m304[0m 10.006 ms - -[0m
+[0mGET /api/admin/charts/trips-per-day [36m304[0m 9.163 ms - -[0m
+[0mGET /api/admin/charts/activity-categories [36m304[0m 8.819 ms - -[0m
+[0mGET /api/admin/stats [36m304[0m 14.172 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 5.222 ms - 481[0m
+[0mGET /api/cities [36m304[0m 5.154 ms - -[0m
+[0mGET /api/trips [36m304[0m 9.527 ms - -[0m
+[0mGET /api/cities [36m304[0m 4.607 ms - -[0m
+[0mGET /api/trips [36m304[0m 5.095 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 1.888 ms - -[0m
+[0mGET /api/trips [36m304[0m 5.713 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.673 ms - -[0m
+[0mGET /api/trips?status=ongoing [36m304[0m 3.893 ms - -[0m
+[0mGET /api/trips?status=upcoming [32m200[0m 2.940 ms - 728[0m
+[0mGET /api/trips?status=completed [36m304[0m 2.613 ms - -[0m
+[0mGET /api/trips?status=upcoming [36m304[0m 2.550 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.570 ms - -[0m
+[0mGET /api/trips?status=ongoing [36m304[0m 3.696 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.428 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 13.623 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.643 ms - -[0m
+[0mGET /api/users/me [32m200[0m 5.448 ms - 481[0m
+[0mGET /api/trips [36m304[0m 8.345 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 8.872 ms - -[0m
+[0mGET /api/users/me [36m304[0m 4.163 ms - -[0m
+[0mGET /api/trips [36m304[0m 6.788 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 4.035 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 3.566 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 3.124 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.851 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.410 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.503 ms - -[0m
+[0mGET /api/trips [36m304[0m 5.881 ms - -[0m
+[0mGET /api/cities [36m304[0m 4.305 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.073 ms - -[0m
+[0mGET /api/trips [36m304[0m 4.034 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.430 ms - -[0m
+[0mGET /api/trips/2 [32m200[0m 8.610 ms - 1370[0m
+[0mGET /api/trips/2 [36m304[0m 3.768 ms - -[0m
+[0mGET /api/checklist/trip/2 [36m304[0m 5.869 ms - -[0m
+[0mGET /api/checklist/trip/2 [36m304[0m 2.978 ms - -[0m
+[0mPOST /api/checklist [32m201[0m 7.259 ms - 140[0m
+[0mPUT /api/checklist/1 [32m200[0m 6.851 ms - 140[0m
+[0mPUT /api/checklist/1 [32m200[0m 3.666 ms - 140[0m
+[0mPUT /api/checklist/1 [32m200[0m 3.236 ms - 140[0m
+[0mPUT /api/checklist/1 [32m200[0m 3.729 ms - 140[0m
+[0mPOST /api/checklist [32m201[0m 5.791 ms - 143[0m
+[0mPUT /api/checklist/1 [32m200[0m 3.444 ms - 140[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+Traveloop backend running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ enable debugging { debug: true }
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Traveloop backend running on port 4000
+[0mGET /api/trips [36m304[0m 657.792 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 593.459 ms - 481[0m
+[0mGET /api/cities [36m304[0m 578.047 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 1.443 ms - -[0m
+[0mPOST /api/trips/curated/7 [32m201[0m 16.822 ms - 32[0m
+[0mGET /api/trips/4 [32m200[0m 6.728 ms - 745[0m
+[0mGET /api/trips/4 [36m304[0m 4.181 ms - -[0m
+[0mGET /api/budget/trip/4 [32m200[0m 9.027 ms - 984[0m
+[0mGET /api/budget/trip/4 [36m304[0m 5.198 ms - -[0m
+[0mGET /api/checklist/trip/4 [32m200[0m 5.674 ms - 398[0m
+[0mGET /api/checklist/trip/4 [36m304[0m 3.593 ms - -[0m
+[0mGET /api/notes/trip/4 [32m200[0m 4.922 ms - 338[0m
+[0mGET /api/notes/trip/4 [36m304[0m 2.467 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 4.303 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 1.968 ms - -[0m
+[0mGET /api/trips [32m200[0m 3.399 ms - 908[0m
+[0mGET /api/cities [36m304[0m 3.066 ms - -[0m
+[0mGET /api/cities [36m304[0m 1.482 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.835 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.494 ms - -[0m
+[0mGET /api/cities [36m304[0m 1.866 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.358 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 3.904 ms - 481[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.347 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 6.552 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.882 ms - -[0m
+[0mGET /api/cities [36m304[0m 1.934 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.359 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.888 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.618 ms - -[0m
+[0mGET /api/trips/4 [36m304[0m 3.961 ms - -[0m
+[0mGET /api/trips/4 [36m304[0m 2.942 ms - -[0m
+[0mGET /api/checklist/trip/4 [36m304[0m 2.966 ms - -[0m
+[0mGET /api/checklist/trip/4 [36m304[0m 2.189 ms - -[0m
+[0mGET /api/budget/trip/4 [36m304[0m 4.613 ms - -[0m
+[0mGET /api/budget/trip/4 [36m304[0m 4.224 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.252 ms - -[0m
+[0mGET /api/trips [36m304[0m 4.432 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.022 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.304 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.343 ms - -[0m
+[0mPOST /api/trips [32m201[0m 4.738 ms - 224[0m
+[0mGET /api/trips/5 [32m200[0m 3.536 ms - 224[0m
+[0mGET /api/trips/5 [36m304[0m 2.443 ms - -[0m
+[0mGET /api/cities?search=Mumbai [36m304[0m 1.849 ms - -[0m
+[0mPOST /api/stops [32m201[0m 455.601 ms - 261[0m
+[0mGET /api/trips/5 [32m200[0m 2.527 ms - 420[0m
+[0mGET /api/cities?search=Delhi [32m200[0m 1.526 ms - 127[0m
+[0mPOST /api/stops [32m201[0m 4.440 ms - 265[0m
+[0mGET /api/trips/5 [32m200[0m 2.394 ms - 621[0m
+[0mGET /api/cities/32/discover [32m200[0m 3.479 ms - 4362[0m
+[0mGET /api/cities/32/discover [36m304[0m 2.429 ms - -[0m
+[0mPOST /api/activities [32m201[0m 5.668 ms - 204[0m
+[0mGET /api/trips/5 [32m200[0m 2.861 ms - 727[0m
+[0mGET /api/cities/32/discover [36m304[0m 2.011 ms - -[0m
+[0mGET /api/cities/32/discover [36m304[0m 2.154 ms - -[0m
+[0mGET /api/cities/32/discover [36m304[0m 2.240 ms - -[0m
+[0mPOST /api/activities [32m201[0m 4.896 ms - 203[0m
+[0mGET /api/trips/5 [32m200[0m 2.981 ms - 833[0m
+[0mGET /api/cities/32/discover [36m304[0m 2.651 ms - -[0m
+[0mGET /api/cities/32/discover [36m304[0m 2.000 ms - -[0m
+[0mGET /api/cities/110/discover [32m200[0m 1850.369 ms - 2689[0m
+[0mPOST /api/activities [32m201[0m 5.277 ms - 191[0m
+[0mGET /api/trips/5 [32m200[0m 2.410 ms - 926[0m
+[0mGET /api/cities/110/discover [32m200[0m 2.748 ms - 2684[0m
+[0mGET /api/cities/110/discover [36m304[0m 1.934 ms - -[0m
+[0mGET /api/budget/trip/5 [32m200[0m 4.877 ms - 207[0m
+[0mGET /api/budget/trip/5 [36m304[0m 3.171 ms - -[0m
+[0mGET /api/checklist/trip/5 [32m200[0m 2.920 ms - 26[0m
+[0mGET /api/checklist/trip/5 [36m304[0m 2.621 ms - -[0m
+[0mGET /api/notes/trip/5 [32m200[0m 3.460 ms - 26[0m
+[0mGET /api/notes/trip/5 [36m304[0m 1.718 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.064 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.149 ms - -[0m
+[0mGET /api/cities [36m304[0m 4.198 ms - -[0m
+[0mGET /api/trips [32m200[0m 6.283 ms - 1109[0m
+[0mGET /api/cities [36m304[0m 3.295 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.941 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.536 ms - -[0m
+[0mGET /api/trips [36m304[0m 4.501 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.904 ms - -[0m
+[0mGET /api/trips/5 [36m304[0m 2.589 ms - -[0m
+[0mGET /api/trips/5 [36m304[0m 1.907 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 123.378 ms - 481[0m
+[0mGET /api/trips/5 [36m304[0m 155.969 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Traveloop backend running on port 4000
+[0mPOST /api/users/sync [32m200[0m 439.081 ms - 481[0m
+[0mGET /api/trips/5 [32m200[0m 534.105 ms - 927[0m
+[0mGET /api/trips/5 [36m304[0m 4.347 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 4.865 ms - 481[0m
+[0mGET /api/trips [32m200[0m 9.856 ms - 1109[0m
+[0mGET /api/cities [36m304[0m 14.238 ms - -[0m
+[0mGET /api/trips [36m304[0m 6.887 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.747 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 1.191 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 6.573 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.292 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.982 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.663 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.593 ms - -[0m
+[0mGET /api/trips/5 [36m304[0m 3.451 ms - -[0m
+[0mGET /api/trips/5 [36m304[0m 3.556 ms - -[0m
+[0mPOST /api/trips/5/publish [32m200[0m 6.656 ms - 276[0m
+[0mGET /api/trips/5 [32m200[0m 3.043 ms - 978[0m
+[0mGET /api/community?sort=latest [32m200[0m 3.676 ms - 405[0m
+[0mGET /api/community?sort=latest [36m304[0m 1.694 ms - -[0m
+[0mPOST /api/community/like/5 [32m201[0m 4.545 ms - 28[0m
+[0mDELETE /api/community/like/5 [32m200[0m 4.126 ms - 28[0m
+[0mPOST /api/community/like/5 [32m201[0m 3.507 ms - 28[0m
+[0mGET /api/users/me [32m200[0m 3.685 ms - 481[0m
+[0mGET /api/trips [32m200[0m 10.142 ms - 1160[0m
+[0mGET /api/users/me [36m304[0m 5.547 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 13.811 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.775 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 2.566 ms - -[0m
+[0mGET /api/trips [36m304[0m 4.366 ms - -[0m
+[0mGET /api/cities [36m304[0m 3.559 ms - -[0m
+[0mGET /api/cities [36m304[0m 1.728 ms - -[0m
+[0mGET /api/trips [36m304[0m 4.014 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.359 ms - -[0m
+[0mGET /api/trips/4 [36m304[0m 3.333 ms - -[0m
+[0mGET /api/trips/4 [36m304[0m 2.069 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.395 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.834 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.185 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.139 ms - -[0m
+[0mGET /uploads/5fb80974-d2c6-4da8-ab49-671c624a289e.png [36m304[0m 0.369 ms - -[0m
+[0mGET /api/trips/5 [36m304[0m 3.487 ms - -[0m
+[0mGET /api/trips/5 [36m304[0m 1.935 ms - -[0m
+[0mGET /api/cities/110/discover [36m304[0m 4.233 ms - -[0m
+[0mGET /api/cities?search=Agra [32m200[0m 578.591 ms - 222[0m
+[0mPOST /api/stops [32m201[0m 6.902 ms - 260[0m
+[0mGET /api/trips/5 [32m200[0m 2.476 ms - 1174[0m
+[0mGET /api/cities/118/discover [32m200[0m 1856.515 ms - 3028[0m
+[0mGET /api/cities/118/discover [32m200[0m 2.378 ms - 3023[0m
+[0mGET /api/cities/118/discover [36m304[0m 2.072 ms - -[0m
+[0mPOST /api/activities [32m201[0m 5.616 ms - 214[0m
+[0mGET /api/trips/5 [32m200[0m 2.509 ms - 1290[0m
+[0mGET /api/cities/118/discover [36m304[0m 2.646 ms - -[0m
+[0mGET /api/cities/118/discover [36m304[0m 1.978 ms - -[0m
+[0mGET /api/trips/5 [36m304[0m 2.863 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 4.093 ms - 481[0m
+[0mGET /api/cities/118/discover [36m304[0m 2.028 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌘ suppress logs { quiet: true }
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/controllers/cities.controller.ts(358,42): error TS2592: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery` and then add 'jquery' to the types field in your tsconfig.
+src/controllers/cities.controller.ts(358,43): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+src/controllers/cities.controller.ts(358,43): error TS2554: Expected 1-2 arguments, but got 12.
+src/controllers/cities.controller.ts(358,54): error TS2304: Cannot find name 'xid'.
+src/controllers/cities.controller.ts(358,58): error TS2592: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery` and then add 'jquery' to the types field in your tsconfig.
+src/controllers/cities.controller.ts(358,59): error TS2872: This kind of expression is always truthy.
+src/controllers/cities.controller.ts(358,60): error TS18004: No value exists in scope for the shorthand property 'xid'. Either declare one or provide an initializer.
+src/controllers/cities.controller.ts(358,65): error TS2304: Cannot find name 'apikey'.
+src/controllers/cities.controller.ts(358,72): error TS2592: Cannot find name '$'. Do you need to install type definitions for jQuery? Try `npm i --save-dev @types/jquery` and then add 'jquery' to the types field in your tsconfig.
+src/controllers/cities.controller.ts(358,73): error TS2349: This expression is not callable.
+  Type '{ OTM_KEY: string; }' has no call signatures.
+src/controllers/cities.controller.ts(381,10): error TS2304: Cannot find name 'INSERT'.
+src/controllers/cities.controller.ts(381,17): error TS2304: Cannot find name 'INTO'.
+src/controllers/cities.controller.ts(381,22): error TS2304: Cannot find name 'activity_catalog'.
+src/controllers/cities.controller.ts(381,40): error TS2552: Cannot find name 'city_id'. Did you mean 'cityId'?
+src/controllers/cities.controller.ts(381,55): error TS2304: Cannot find name 'category'.
+src/controllers/cities.controller.ts(381,65): error TS2304: Cannot find name 'description'.
+src/controllers/cities.controller.ts(381,78): error TS2304: Cannot find name 'avg_cost'.
+src/controllers/cities.controller.ts(381,88): error TS2304: Cannot find name 'duration_minutes'.
+src/controllers/cities.controller.ts(382,10): error TS2304: Cannot find name 'SELECT'.
+src/controllers/cities.controller.ts(383,10): error TS2304: Cannot find name 'WHERE'.
+src/controllers/cities.controller.ts(383,16): error TS2304: Cannot find name 'NOT'.
+src/controllers/cities.controller.ts(383,20): error TS2304: Cannot find name 'EXISTS'.
+src/controllers/cities.controller.ts(383,28): error TS2304: Cannot find name 'SELECT'.
+src/controllers/cities.controller.ts(383,37): error TS2304: Cannot find name 'FROM'.
+src/controllers/cities.controller.ts(383,42): error TS2304: Cannot find name 'activity_catalog'.
+src/controllers/cities.controller.ts(383,59): error TS2304: Cannot find name 'WHERE'.
+src/controllers/cities.controller.ts(383,65): error TS2304: Cannot find name 'city_id'.
+src/controllers/cities.controller.ts(383,77): error TS2304: Cannot find name 'AND'.
+src/controllers/cities.controller.ts(383,81): error TS2588: Cannot assign to 'name' because it is a constant.
+src/controllers/cities.controller.ts(316,34): error TS1127: Invalid character.
+src/controllers/cities.controller.ts(358,42): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(358,43): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(358,59): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(358,73): error TS1005: ':' expected.
+src/controllers/cities.controller.ts(381,10): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(381,17): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(381,22): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(382,10): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(382,18): error TS1109: Expression expected.
+src/controllers/cities.controller.ts(382,20): error TS1135: Argument expression expected.
+src/controllers/cities.controller.ts(382,21): error TS1135: Argument expression expected.
+src/controllers/cities.controller.ts(382,23): error TS1135: Argument expression expected.
+src/controllers/cities.controller.ts(382,24): error TS1135: Argument expression expected.
+src/controllers/cities.controller.ts(382,26): error TS1135: Argument expression expected.
+src/controllers/cities.controller.ts(382,27): error TS1135: Argument expression expected.
+src/controllers/cities.controller.ts(382,29): error TS1135: Argument expression expected.
+src/controllers/cities.controller.ts(382,30): error TS1135: Argument expression expected.
+src/controllers/cities.controller.ts(382,32): error TS1135: Argument expression expected.
+src/controllers/cities.controller.ts(383,16): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(383,20): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(383,35): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(383,37): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(383,42): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(383,59): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(383,65): error TS1005: ',' expected.
+src/controllers/cities.controller.ts(383,75): error TS1109: Expression expected.
+src/controllers/cities.controller.ts(383,81): error TS1005: ':' expected.
+src/controllers/cities.controller.ts(383,88): error TS1109: Expression expected.
+src/controllers/cities.controller.ts(383,89): error TS1109: Expression expected.
+src/controllers/cities.controller.ts(406,1): error TS1160: Unterminated template literal.
+
+    at createTSError (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\heet1\OneDrive\Desktop\Coding\WebPage\traveloop-backend\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14) {
+  diagnosticCodes: [
+    2592, 2362, 2554, 2304, 2592, 2872, 18004,
+    2304, 2592, 2349, 2304, 2304, 2304,  2552,
+    2304, 2304, 2304, 2304, 2304, 2304,  2304,
+    2304, 2304, 2304, 2304, 2304, 2304,  2304,
+    2588, 1127, 1005, 1005, 1005, 1005,  1005,
+    1005, 1005, 1005, 1109, 1135, 1135,  1135,
+    1135, 1135, 1135, 1135, 1135, 1135,  1005,
+    1005, 1005, 1005, 1005, 1005, 1005,  1109,
+    1005, 1109, 1109, 1160
+  ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (9) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (10) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Traveloop backend running on port 4000
+[0mGET /api/cities?search=China [32m200[0m 1758.949 ms - 26[0m
+[0mGET /api/cities?search=China [36m304[0m 26.164 ms - -[0m
+[0mGET /api/cities?search=China [36m304[0m 24.822 ms - -[0m
+[0mGET /api/cities?search=China [36m304[0m 24.627 ms - -[0m
+[0mGET /api/cities?search=China [36m304[0m 81.733 ms - -[0m
+[0mGET /api/trips/6 [36m304[0m 12.295 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 12.021 ms - 481[0m
+[0mGET /api/cities?search=Agra [36m304[0m 2.699 ms - -[0m
+[0mGET /api/cities?search=China [36m304[0m 72.794 ms - -[0m
+[0mGET /api/cities?search=Brazil [32m200[0m 377.580 ms - 26[0m
+[0mGET /api/cities?search=India [32m200[0m 528.480 ms - 123[0m
+[0mGET /api/cities?search=Peru [32m200[0m 838.477 ms - 127[0m
+[0mPOST /api/stops [32m201[0m 7.245 ms - 265[0m
+[0mGET /api/trips/6 [32m200[0m 3.068 ms - 636[0m
+[0mGET /api/cities/123/discover [32m200[0m 2055.239 ms - 1712[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (10) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (10) from .env // tip: ⌘ suppress logs { quiet: true }
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Traveloop backend running on port 4000
+[0mPOST /api/users/sync [32m200[0m 1008.406 ms - 481[0m
+[0mGET /api/trips/6 [36m304[0m 1055.862 ms - -[0m
+[0mGET /api/cities/124/discover [32m200[0m 5.392 ms - 4113[0m
+[0mPOST /api/activities [32m201[0m 6.925 ms - 212[0m
+[0mGET /api/trips/6 [32m200[0m 3.825 ms - 1162[0m
+[0mGET /api/cities/124/discover [36m304[0m 2.304 ms - -[0m
+[0mGET /api/cities/124/discover [36m304[0m 2.427 ms - -[0m
+[0mDELETE /api/activities/16 [32m200[0m 4.372 ms - 28[0m
+[0mGET /api/trips/6 [32m200[0m 3.787 ms - 1057[0m
+[0mGET /api/cities/118/discover [32m200[0m 2.262 ms - 3929[0m
+[0mPOST /api/activities [32m201[0m 4.445 ms - 204[0m
+[0mGET /api/trips/6 [32m200[0m 2.517 ms - 1163[0m
+[0mGET /api/cities/118/discover [36m304[0m 2.399 ms - -[0m
+[0mGET /api/cities/118/discover [36m304[0m 1.756 ms - -[0m
+[0mDELETE /api/activities/15 [32m200[0m 3.485 ms - 28[0m
+[0mGET /api/trips/6 [32m200[0m 2.568 ms - 1055[0m
+[0mGET /api/cities/123/discover [32m200[0m 1.873 ms - 3901[0m
+[0mPOST /api/activities [32m201[0m 4.164 ms - 207[0m
+[0mGET /api/trips/6 [32m200[0m 2.268 ms - 1164[0m
+[0mGET /api/cities/123/discover [36m304[0m 2.088 ms - -[0m
+[0mGET /api/cities/123/discover [36m304[0m 2.057 ms - -[0m
+[0mGET /api/budget/trip/6 [32m200[0m 7.223 ms - 656[0m
+[0mGET /api/budget/trip/6 [36m304[0m 4.647 ms - -[0m
+[0mGET /api/checklist/trip/6 [32m200[0m 4.474 ms - 26[0m
+[0mGET /api/checklist/trip/6 [36m304[0m 2.579 ms - -[0m
+[0mGET /api/notes/trip/6 [32m200[0m 4.004 ms - 26[0m
+[0mGET /api/notes/trip/6 [36m304[0m 2.639 ms - -[0m
+[0mPOST /api/trips/6/publish [32m200[0m 8.245 ms - 291[0m
+[0mGET /api/trips/6 [32m200[0m 3.090 ms - 1215[0m
+[0mGET /api/community?sort=latest [32m200[0m 3.501 ms - 782[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.378 ms - -[0m
+[0mPOST /api/community/like/6 [32m201[0m 4.209 ms - 28[0m
+[0mGET /api/trips [33m404[0m 2.614 ms - 73[0m
+[0mGET /api/cities [32m200[0m 3.346 ms - 2080[0m
+[0mPOST /api/users/sync [32m200[0m 4.821 ms - 434[0m
+[0mGET /api/community?sort=latest [32m200[0m 2.941 ms - 782[0m
+[0mGET /api/community?sort=latest [36m304[0m 1.988 ms - -[0m
+[0mGET /api/trips [32m200[0m 2.897 ms - 26[0m
+[0mGET /api/trips [36m304[0m 1.674 ms - -[0m
+[0mPOST /api/trips [32m201[0m 4.467 ms - 230[0m
+[0mGET /api/trips/7 [32m200[0m 3.222 ms - 230[0m
+[0mGET /api/trips/7 [36m304[0m 1.702 ms - -[0m
+[0mGET /api/cities?search=Daman [32m200[0m 825.142 ms - 123[0m
+[0mPOST /api/stops [32m201[0m 6.913 ms - 261[0m
+[0mGET /api/trips/7 [32m200[0m 2.228 ms - 426[0m
+[0mGET /api/cities/125/discover [32m200[0m 12136.965 ms - 4185[0m
+[0mPOST /api/activities [32m201[0m 5.975 ms - 207[0m
+[0mGET /api/trips/7 [32m200[0m 2.272 ms - 535[0m
+[0mGET /api/cities/125/discover [32m200[0m 2.218 ms - 4214[0m
+[0mGET /api/cities/125/discover [36m304[0m 1.837 ms - -[0m
+[0mPOST /api/trips/7/publish [32m200[0m 4.943 ms - 281[0m
+[0mGET /api/trips/7 [32m200[0m 2.213 ms - 586[0m
+[0mGET /api/community?sort=latest [32m200[0m 3.623 ms - 1167[0m
+[0mGET /api/community?sort=latest [36m304[0m 3.406 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.420 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 3.869 ms - 424[0m
+[0mGET /api/trips [32m200[0m 3.154 ms - 283[0m
+[0mGET /api/trips [36m304[0m 2.482 ms - -[0m
+[0mGET /api/trips [36m304[0m 4.128 ms - -[0m
+[0mGET /api/cities [36m304[0m 3.444 ms - -[0m
+[0mGET /api/cities [36m304[0m 1.536 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.448 ms - -[0m
+[0mPOST /api/trips/curated/2 [32m201[0m 10.361 ms - 32[0m
+[0mGET /api/trips/8 [32m200[0m 3.033 ms - 750[0m
+[0mGET /api/trips/8 [36m304[0m 2.599 ms - -[0m
+[0mGET /api/budget/trip/8 [32m200[0m 4.300 ms - 985[0m
+[0mGET /api/budget/trip/8 [36m304[0m 4.602 ms - -[0m
+[0mGET /api/checklist/trip/8 [32m200[0m 2.349 ms - 400[0m
+[0mGET /api/checklist/trip/8 [36m304[0m 1.991 ms - -[0m
+[0mGET /api/notes/trip/8 [32m200[0m 3.320 ms - 337[0m
+[0mGET /api/notes/trip/8 [36m304[0m 2.092 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.379 ms - -[0m
+[0mGET /api/trips [32m200[0m 4.687 ms - 463[0m
+[0mGET /api/cities [36m304[0m 3.061 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.787 ms - -[0m
+[0mGET /api/trips/8 [36m304[0m 2.904 ms - -[0m
+[0mGET /api/trips/8 [36m304[0m 2.764 ms - -[0m
+[0mPOST /api/trips/8/publish [32m200[0m 4.946 ms - 254[0m
+[0mGET /api/trips/8 [32m200[0m 2.469 ms - 801[0m
+[0mGET /api/community?sort=latest [32m200[0m 2.189 ms - 1537[0m
+[0mGET /api/community?sort=latest [36m304[0m 1.671 ms - -[0m
+[0mGET /api/cities [36m304[0m 1.864 ms - -[0m
+[0mGET /api/trips [32m200[0m 3.264 ms - 514[0m
+[0mGET /api/cities [36m304[0m 2.124 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.526 ms - -[0m
+[0mPOST /api/trips [32m201[0m 647.326 ms - 187[0m
+[0mGET /api/trips/9 [32m200[0m 2.972 ms - 187[0m
+[0mGET /api/trips/9 [36m304[0m 1.777 ms - -[0m
+[0mGET /api/cities?search=Daman [36m304[0m 1.577 ms - -[0m
+[0mPOST /api/stops [32m201[0m 5.694 ms - 261[0m
+[0mGET /api/trips/9 [32m200[0m 2.016 ms - 383[0m
+[0mGET /api/cities/125/discover [36m304[0m 2.469 ms - -[0m
+[0mPOST /api/activities [32m201[0m 4.878 ms - 208[0m
+[0mGET /api/trips/9 [32m200[0m 2.312 ms - 493[0m
+[0mGET /api/cities/125/discover [36m304[0m 1.827 ms - -[0m
+[0mGET /api/cities/125/discover [36m304[0m 1.429 ms - -[0m
+[0mPOST /api/activities [32m201[0m 5.176 ms - 212[0m
+[0mGET /api/trips/9 [32m200[0m 2.333 ms - 608[0m
+[0mGET /api/budget/trip/9 [32m200[0m 4.715 ms - 369[0m
+[0mGET /api/budget/trip/9 [36m304[0m 3.486 ms - -[0m
+[0mGET /api/checklist/trip/9 [32m200[0m 2.401 ms - 26[0m
+[0mGET /api/checklist/trip/9 [36m304[0m 1.872 ms - -[0m
+[0mPOST /api/checklist [32m201[0m 4.020 ms - 98[0m
+[0mPUT /api/checklist/12 [32m200[0m 4.503 ms - 97[0m
+[0mPUT /api/checklist/12 [32m200[0m 3.761 ms - 98[0m
+[0mGET /api/notes/trip/9 [32m200[0m 2.845 ms - 26[0m
+[0mGET /api/notes/trip/9 [36m304[0m 1.896 ms - -[0m
+[0mPOST /api/notes [32m201[0m 5.328 ms - 172[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.080 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 1.539 ms - -[0m
+[0mGET /api/users/me [32m200[0m 4.928 ms - 424[0m
+[0mGET /api/trips [32m200[0m 6.919 ms - 678[0m
+[0mGET /api/users/me [36m304[0m 5.363 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.001 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 12.220 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 2.085 ms - -[0m
+[0mGET /api/cities [36m304[0m 1.841 ms - -[0m
+[0mGET /api/trips [36m304[0m 5.051 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.819 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.792 ms - -[0m
+[0mGET /api/trips/8 [36m304[0m 678.400 ms - -[0m
+[0mGET /api/trips/8 [36m304[0m 2.423 ms - -[0m
+[0mGET /api/budget/trip/8 [36m304[0m 4.600 ms - -[0m
+[0mGET /api/budget/trip/8 [36m304[0m 3.605 ms - -[0m
+[0mGET /api/budget/trip/8 [36m304[0m 3.705 ms - -[0m
+[0mGET /api/budget/trip/8 [36m304[0m 3.630 ms - -[0m
+[0mGET /api/budget/trip/8 [36m304[0m 3.621 ms - -[0m
+[0mGET /api/budget/trip/8 [36m304[0m 3.378 ms - -[0m
+[0mGET /api/notes/trip/8 [36m304[0m 3.420 ms - -[0m
+[0mGET /api/notes/trip/8 [36m304[0m 2.274 ms - -[0m
+[0mGET /api/budget/trip/8 [36m304[0m 4.198 ms - -[0m
+[0mGET /api/budget/trip/8 [36m304[0m 2.756 ms - -[0m
+[0mGET /api/budget/trip/8 [36m304[0m 3.216 ms - -[0m
+[0mGET /api/trips/8 [36m304[0m 2.166 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 7.500 ms - 424[0m
+[0mGET /api/budget/trip/8 [36m304[0m 2.651 ms - -[0m
+[0mGET /api/trips/8 [36m304[0m 2.615 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 6.457 ms - 424[0m
+[0mGET /api/budget/trip/8 [36m304[0m 3.248 ms - -[0m
+[0mGET /api/trips/8 [36m304[0m 2.562 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 7.041 ms - 424[0m
+[0mGET /api/budget/trip/8 [36m304[0m 2.802 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 2.373 ms - -[0m
+[0mGET /api/community?sort=latest [36m304[0m 1.534 ms - -[0m
+[0mGET /api/users/me [32m200[0m 3.561 ms - 424[0m
+[0mGET /api/trips [36m304[0m 3.772 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 5.729 ms - -[0m
+[0mGET /api/users/me [36m304[0m 2.853 ms - -[0m
+[0mGET /api/trips [36m304[0m 4.043 ms - -[0m
+[0mGET /api/users/me/saved-destinations [36m304[0m 2.469 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.090 ms - -[0m
+[0mGET /api/trips [36m304[0m 3.790 ms - -[0m
+[0mGET /api/cities [36m304[0m 2.567 ms - -[0m
+[0mGET /api/trips [36m304[0m 2.268 ms - -[0m
+[0mPOST /api/users/sync [32m200[0m 146.808 ms - 481[0m
+[0mGET /api/cities [36m304[0m 377.348 ms - -[0m
+[0mGET /api/trips [32m200[0m 411.618 ms - 1428[0m
+[0mPOST /api/trips [32m201[0m 3.962 ms - 227[0m
+[0mGET /api/trips/10 [32m200[0m 4.178 ms - 227[0m
+[0mGET /api/trips/10 [36m304[0m 2.173 ms - -[0m
+[0mGET /api/cities?search=Venice [36m304[0m 1114.781 ms - -[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node src/server.ts`[39m
+◇ injected env (10) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+Traveloop backend running on port 4000
+[32m[nodemon] clean exit - waiting for changes before restart[39m

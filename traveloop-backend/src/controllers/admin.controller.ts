@@ -33,6 +33,9 @@ export async function getUsers(req: Request, res: Response, next: NextFunction):
   try {
     const { limit = "20", offset = "0", search = "" } = req.query as Record<string, string>;
 
+    const safeLimit = Math.max(1, Math.min(parseInt(limit) || 20, 100));
+    const safeOffset = Math.max(0, parseInt(offset) || 0);
+
     const [rows] = await pool.execute<RowDataPacket[]>(
       `SELECT u.id, u.name, u.email, u.role, u.created_at, COUNT(t.id) AS trip_count
        FROM users u
@@ -40,8 +43,8 @@ export async function getUsers(req: Request, res: Response, next: NextFunction):
        WHERE u.name LIKE CONCAT('%', ?, '%') OR u.email LIKE CONCAT('%', ?, '%')
        GROUP BY u.id
        ORDER BY u.created_at DESC
-       LIMIT ? OFFSET ?`,
-      [search, search, parseInt(limit), parseInt(offset)]
+       LIMIT ${safeLimit} OFFSET ${safeOffset}`,
+      [search, search]
     );
 
     res.status(200).json({ success: true, data: rows });
@@ -54,6 +57,9 @@ export async function getAdminTrips(req: Request, res: Response, next: NextFunct
   try {
     const { limit = "20", offset = "0" } = req.query as Record<string, string>;
 
+    const safeLimit2 = Math.max(1, Math.min(parseInt(limit) || 20, 100));
+    const safeOffset2 = Math.max(0, parseInt(offset) || 0);
+
     const [rows] = await pool.execute<RowDataPacket[]>(
       `SELECT t.id, t.name, t.status, t.created_at, u.name AS creator_name, u.email AS creator_email,
               COUNT(DISTINCT s.id) AS city_count
@@ -62,8 +68,8 @@ export async function getAdminTrips(req: Request, res: Response, next: NextFunct
        LEFT JOIN stops s ON s.trip_id = t.id
        GROUP BY t.id, u.name, u.email
        ORDER BY t.created_at DESC
-       LIMIT ? OFFSET ?`,
-      [parseInt(limit), parseInt(offset)]
+       LIMIT ${safeLimit2} OFFSET ${safeOffset2}`,
+      []
     );
 
     res.status(200).json({ success: true, data: rows });

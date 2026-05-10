@@ -20,19 +20,37 @@ export async function getBudget(req: Request, res: Response, next: NextFunction)
     }
 
     const [items] = await pool.execute<RowDataPacket[]>(
-      "SELECT * FROM budget_items WHERE trip_id = ? ORDER BY category, created_at",
+      "SELECT id, category, description, quantity, unit_cost as unitCost, total, created_at as createdAt FROM budget_items WHERE trip_id = ? ORDER BY category, created_at",
       [tripId]
     );
 
-    const [summary] = await pool.execute<RowDataPacket[]>(
-      "SELECT category, SUM(total) AS category_total, COUNT(*) AS item_count FROM budget_items WHERE trip_id = ? GROUP BY category",
+    const [activities] = await pool.execute<RowDataPacket[]>(
+      `SELECT a.id, 'activities' AS category, a.name AS description, 1 AS quantity, a.cost AS unitCost, a.cost AS total, a.created_at AS createdAt
+       FROM activities a
+       JOIN stops s ON s.id = a.stop_id
+       WHERE s.trip_id = ? AND a.cost > 0`,
       [tripId]
     );
 
-    const [grandTotal] = await pool.execute<RowDataPacket[]>(
-      "SELECT COALESCE(SUM(total), 0) AS grand_total FROM budget_items WHERE trip_id = ?",
-      [tripId]
-    );
+    const allItems = [...items, ...activities];
+
+    const summaryMap: Record<string, { category_total: number; item_count: number }> = {};
+    let grandTotal = 0;
+
+    for (const item of allItems) {
+      const cat = item.category;
+      const t = Number(item.total) || 0;
+      grandTotal += t;
+      if (!summaryMap[cat]) summaryMap[cat] = { category_total: 0, item_count: 0 };
+      summaryMap[cat].category_total += t;
+      summaryMap[cat].item_count += 1;
+    }
+
+    const summary = Object.entries(summaryMap).map(([category, stats]) => ({
+      category,
+      category_total: stats.category_total,
+      item_count: stats.item_count
+    }));
 
     const [dailyCosts] = await pool.execute<RowDataPacket[]>(
       `SELECT s.start_date AS day, SUM(a.cost) AS daily_activity_cost
@@ -47,9 +65,9 @@ export async function getBudget(req: Request, res: Response, next: NextFunction)
     res.status(200).json({
       success: true,
       data: {
-        items,
+        items: allItems,
         summary,
-        grandTotal: grandTotal[0].grand_total,
+        grandTotal,
         dailyCosts,
       },
     });

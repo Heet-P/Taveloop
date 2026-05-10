@@ -6,4 +6,4 @@ frontend_prompt.md
 .env.development
 traveloop-backend/node_modules
 traveloop-frontend/node_modules
-.claude/
+.claude/*.zip

@@ -85,6 +85,7 @@ export interface Note {
 export interface CommunityTrip {
   id: string;
   name: string;
+  description?: string;
   start_date: string;
   end_date: string;
   cover_photo?: string;

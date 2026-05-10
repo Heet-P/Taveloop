@@ -7,5 +7,6 @@ const router = Router();
 router.get("/", requireAuth, citiesController.searchCities);
 router.get("/:id", requireAuth, citiesController.getCityById);
 router.get("/:id/activities", requireAuth, citiesController.getCityActivities);
+router.get("/:id/discover", requireAuth, citiesController.discoverActivities);
 
 export default router;

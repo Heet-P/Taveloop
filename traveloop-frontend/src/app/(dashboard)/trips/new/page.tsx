@@ -1,14 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@clerk/nextjs";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Upload, X } from "lucide-react";
 import PageWrapper from "@/components/layout/PageWrapper";
 import Button from "@/components/ui/Button";
 import { Input, Textarea } from "@/components/ui/Input";
 import Card from "@/components/ui/Card";
-import { createTrip } from "@/lib/api";
+import { createTrip, uploadFile } from "@/lib/api";
 
 const POPULAR_COMBOS = [
   { id: 1, label: "Tokyo → Kyoto → Osaka", emoji: "🇯🇵", desc: "Classic Japan circuit" },
@@ -32,6 +32,11 @@ export default function NewTripPage() {
   const [loading, setLoading] = useState(false);
   const [apiError, setApiError] = useState("");
 
+  const [coverFile, setCoverFile] = useState<File | null>(null);
+  const [coverPreview, setCoverPreview] = useState<string | null>(null);
+  const [dragging, setDragging] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
   function set(field: string, value: string) {
     setForm((prev) => ({ ...prev, [field]: value }));
     setErrors((prev) => ({ ...prev, [field]: undefined }));
@@ -48,6 +53,31 @@ export default function NewTripPage() {
     return Object.keys(e).length === 0;
   }
 
+  function handleFile(file: File) {
+    if (!file.type.startsWith("image/")) return;
+    if (file.size > 5 * 1024 * 1024) {
+      setApiError("Image must be under 5 MB");
+      return;
+    }
+    setCoverFile(file);
+    setCoverPreview(URL.createObjectURL(file));
+    setApiError("");
+  }
+
+  function clearCover() {
+    if (coverPreview) URL.revokeObjectURL(coverPreview);
+    setCoverFile(null);
+    setCoverPreview(null);
+    if (fileInputRef.current) fileInputRef.current.value = "";
+  }
+
+  const onDrop = useCallback((e: React.DragEvent) => {
+    e.preventDefault();
+    setDragging(false);
+    const file = e.dataTransfer.files[0];
+    if (file) handleFile(file);
+  }, []);
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!validate()) return;
@@ -56,8 +86,14 @@ export default function NewTripPage() {
     try {
       const token = await getToken();
       if (!token) throw new Error("Not authenticated");
+
+      let coverPhoto: string | undefined;
+      if (coverFile) {
+        coverPhoto = await uploadFile(coverFile, token);
+      }
+
       const trip = await createTrip(
-        { name: form.name, description: form.description || undefined, startDate: form.startDate, endDate: form.endDate },
+        { name: form.name, description: form.description || undefined, startDate: form.startDate, endDate: form.endDate, coverPhoto },
         token
       );
       router.push(`/trips/${trip.id}/itinerary`);
@@ -124,18 +160,63 @@ export default function NewTripPage() {
               onChange={(e) => set("description", e.target.value)}
             />
 
-            {/* Cover photo drag-drop */}
+            {/* Cover photo */}
             <div>
-              <label className="text-sm font-medium text-[var(--text-secondary)] block mb-1">Cover Photo (optional)</label>
-              <div className="border-2 border-dashed border-[var(--border)] rounded-[var(--radius-md)] p-6 text-center hover:border-[var(--primary)] transition-colors cursor-pointer group">
-                <svg className="mx-auto mb-2 text-[var(--text-muted)] group-hover:text-[var(--primary)] transition-colors" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-                  <rect x="3" y="6" width="22" height="16" rx="3" stroke="currentColor" strokeWidth="1.5" fill="none" />
-                  <circle cx="10" cy="12" r="2.5" stroke="currentColor" strokeWidth="1.5" fill="none" />
-                  <path d="M3 18 L9 13 L14 17 L18 14 L25 20" stroke="currentColor" strokeWidth="1.5" fill="none" />
-                </svg>
-                <p className="text-sm text-[var(--text-muted)]">Drag & drop or click to upload</p>
-                <p className="text-xs text-[var(--text-muted)] mt-1">PNG, JPG up to 5MB</p>
-              </div>
+              <label className="text-sm font-medium text-[var(--text-secondary)] block mb-1.5">
+                Cover Photo <span className="text-[var(--text-muted)] font-normal">(optional)</span>
+              </label>
+
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="image/jpeg,image/jpg,image/png,image/webp"
+                className="sr-only"
+                onChange={(e) => { const f = e.target.files?.[0]; if (f) handleFile(f); }}
+                aria-label="Upload cover photo"
+              />
+
+              {coverPreview ? (
+                <div className="relative rounded-[var(--radius-md)] overflow-hidden h-40 group">
+                  <img src={coverPreview} alt="Cover preview" className="w-full h-full object-cover" />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
+                  <button
+                    type="button"
+                    onClick={clearCover}
+                    className="absolute top-2 right-2 p-1.5 bg-white/90 rounded-full shadow hover:bg-white transition-colors"
+                    aria-label="Remove cover photo"
+                  >
+                    <X size={14} className="text-[var(--text-primary)]" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => fileInputRef.current?.click()}
+                    className="absolute bottom-2 right-2 text-xs px-2.5 py-1 bg-white/90 rounded-full shadow hover:bg-white transition-colors text-[var(--text-secondary)]"
+                  >
+                    Change
+                  </button>
+                </div>
+              ) : (
+                <div
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => fileInputRef.current?.click()}
+                  onKeyDown={(e) => e.key === "Enter" && fileInputRef.current?.click()}
+                  onDragOver={(e) => { e.preventDefault(); setDragging(true); }}
+                  onDragLeave={() => setDragging(false)}
+                  onDrop={onDrop}
+                  className={`border-2 border-dashed rounded-[var(--radius-md)] p-6 text-center cursor-pointer transition-colors ${
+                    dragging
+                      ? "border-[var(--primary)] bg-[var(--primary)]/5"
+                      : "border-[var(--border)] hover:border-[var(--primary)] hover:bg-[var(--primary)]/5"
+                  }`}
+                >
+                  <Upload size={24} className={`mx-auto mb-2 transition-colors ${dragging ? "text-[var(--primary)]" : "text-[var(--text-muted)]"}`} />
+                  <p className="text-sm text-[var(--text-muted)]">
+                    {dragging ? "Drop to upload" : "Drag & drop or click to upload"}
+                  </p>
+                  <p className="text-xs text-[var(--text-muted)] mt-1">PNG, JPG, WEBP up to 5 MB</p>
+                </div>
+              )}
             </div>
 
             <Button type="submit" loading={loading} className="w-full gap-2" size="lg">

@@ -24,7 +24,15 @@ export async function getChecklist(req: Request, res: Response, next: NextFuncti
       [tripId]
     );
 
-    res.status(200).json({ success: true, data: rows });
+    const normalized = rows.map((r) => ({
+      id: String(r.id),
+      tripId: String(r.trip_id),
+      name: String(r.name),
+      category: String(r.category),
+      isPacked: Boolean(r.is_packed),
+    }));
+
+    res.status(200).json({ success: true, data: normalized });
   } catch (err) {
     next(err);
   }
@@ -54,7 +62,17 @@ export async function addChecklistItem(req: Request, res: Response, next: NextFu
     );
 
     const [rows] = await pool.execute<RowDataPacket[]>("SELECT * FROM checklist_items WHERE id = ?", [result.insertId]);
-    res.status(201).json({ success: true, data: rows[0] });
+    const r = rows[0];
+    res.status(201).json({ 
+      success: true, 
+      data: {
+        id: String(r.id),
+        tripId: String(r.trip_id),
+        name: String(r.name),
+        category: String(r.category),
+        isPacked: Boolean(r.is_packed),
+      } 
+    });
   } catch (err) {
     next(err);
   }
@@ -87,7 +105,17 @@ export async function updateChecklistItem(req: Request, res: Response, next: Nex
     );
 
     const [rows] = await pool.execute<RowDataPacket[]>("SELECT * FROM checklist_items WHERE id = ?", [itemId]);
-    res.status(200).json({ success: true, data: rows[0] });
+    const r = rows[0];
+    res.status(200).json({ 
+      success: true, 
+      data: {
+        id: String(r.id),
+        tripId: String(r.trip_id),
+        name: String(r.name),
+        category: String(r.category),
+        isPacked: Boolean(r.is_packed),
+      } 
+    });
   } catch (err) {
     next(err);
   }

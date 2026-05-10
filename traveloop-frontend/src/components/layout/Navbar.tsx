@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/home", label: "Home" },
   { href: "/trips", label: "My Trips" },
   { href: "/community", label: "Community" },
+  { href: "/profile", label: "Profile" },
 ];
 
 export default function Navbar() {
@@ -47,18 +48,6 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <button
-            aria-label="Search"
-            className="p-2 rounded-[var(--radius-sm)] text-[var(--text-secondary)] hover:bg-[var(--bg-muted)] transition-colors"
-          >
-            <Search size={18} />
-          </button>
-          <button
-            aria-label="Notifications"
-            className="p-2 rounded-[var(--radius-sm)] text-[var(--text-secondary)] hover:bg-[var(--bg-muted)] transition-colors"
-          >
-            <Bell size={18} />
-          </button>
           <UserButton
             appearance={{
               elements: {

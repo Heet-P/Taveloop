@@ -4,11 +4,12 @@ import { RowDataPacket, ResultSetHeader } from "mysql2";
 
 export async function syncUser(req: Request, res: Response, next: NextFunction): Promise<void> {
   try {
-    const { clerkId, name, email, avatarUrl } = req.body as {
+    const { clerkId, name, email, avatarUrl, role } = req.body as {
       clerkId: string;
       name: string;
       email: string;
       avatarUrl?: string;
+      role?: string;
     };
 
     if (!clerkId || !name || !email) {
@@ -16,11 +17,13 @@ export async function syncUser(req: Request, res: Response, next: NextFunction):
       return;
     }
 
+    const fallbackRole = role === "admin" ? "admin" : "user";
+
     await pool.execute<ResultSetHeader>(
-      `INSERT INTO users (clerk_id, name, email, avatar_url)
-       VALUES (?, ?, ?, ?)
-       ON DUPLICATE KEY UPDATE name = VALUES(name), email = VALUES(email), avatar_url = VALUES(avatar_url), updated_at = CURRENT_TIMESTAMP`,
-      [clerkId, name, email, avatarUrl ?? null]
+      `INSERT INTO users (clerk_id, name, email, avatar_url, role)
+       VALUES (?, ?, ?, ?, ?)
+       ON DUPLICATE KEY UPDATE name = VALUES(name), email = VALUES(email), avatar_url = VALUES(avatar_url), role = VALUES(role), updated_at = CURRENT_TIMESTAMP`,
+      [clerkId, name, email, avatarUrl ?? null, fallbackRole]
     );
 
     const [rows] = await pool.execute<RowDataPacket[]>(

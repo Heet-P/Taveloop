@@ -20,8 +20,21 @@ async function apiFetch<T>(
   return json.data;
 }
 
+export async function uploadFile(file: File, token: string): Promise<string> {
+  const form = new FormData();
+  form.append("file", file);
+  const res = await fetch(`${BASE_URL}/api/upload`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${token}` },
+    body: form,
+  });
+  const json = await res.json() as { success: boolean; data?: { url: string }; error?: string };
+  if (!res.ok) throw new Error(json.error ?? `Upload failed: ${res.status}`);
+  return json.data!.url;
+}
+
 // Users
-export const syncUser = (data: { clerkId: string; name: string; email: string; avatarUrl?: string }, token: string) =>
+export const syncUser = (data: { clerkId: string; name: string; email: string; avatarUrl?: string; role?: string }, token: string) =>
   apiFetch<User>("/api/users/sync", { method: "POST", body: JSON.stringify(data), token });
 
 export const getMe = (token: string) => apiFetch<User>("/api/users/me", { token });
@@ -41,6 +54,8 @@ export const getTrips = (params: { status?: string } = {}, token: string) => {
 };
 export const createTrip = (data: { name: string; description?: string; startDate: string; endDate: string; coverPhoto?: string }, token: string) =>
   apiFetch<Trip>("/api/trips", { method: "POST", body: JSON.stringify(data), token });
+export const createCuratedTrip = (cityId: string, token: string) => 
+  apiFetch<{ id: number }>(`/api/trips/curated/${cityId}`, { method: "POST", token });
 export const getTripById = (id: string, token: string) => apiFetch<Trip>(`/api/trips/${id}`, { token });
 export const updateTrip = (id: string, data: Partial<Trip>, token: string) =>
   apiFetch<Trip>(`/api/trips/${id}`, { method: "PUT", body: JSON.stringify(data), token });
@@ -76,6 +91,8 @@ export const getCityActivities = (id: string, params: { category?: string; minCo
   const qs = new URLSearchParams(Object.entries(params).filter(([, v]) => v !== undefined).map(([k, v]) => [k, String(v)])).toString();
   return apiFetch<Activity[]>(`/api/cities/${id}/activities${qs ? `?${qs}` : ""}`, { token });
 };
+export const discoverCityActivities = (id: string, token: string) =>
+  apiFetch<Activity[]>(`/api/cities/${id}/discover`, { token });
 
 // Budget
 export const getBudget = (tripId: string, token: string) => apiFetch<BudgetSummary>(`/api/budget/trip/${tripId}`, { token });
@@ -112,3 +129,20 @@ export const getCommunityFeed = (params: { sort?: string; search?: string; offse
 };
 export const likeTrip = (tripId: string, token: string) => apiFetch<null>(`/api/community/like/${tripId}`, { method: "POST", token });
 export const unlikeTrip = (tripId: string, token: string) => apiFetch<null>(`/api/community/like/${tripId}`, { method: "DELETE", token });
+export const copyPublicTrip = (tripId: string, token: string) => apiFetch<Trip>(`/api/community/copy/${tripId}`, { method: "POST", token });
+
+// Admin
+export interface AdminStats {
+  totalUsers: number;
+  totalTrips: number;
+  activeThisWeek: number;
+  topCity: { name: string; stop_count: number } | null;
+}
+export const getAdminStats = (token: string) => apiFetch<AdminStats>("/api/admin/stats", { token });
+export const getAdminUsers = (params: { search?: string; limit?: number; offset?: number } = {}, token: string) => {
+  const qs = new URLSearchParams(Object.entries(params).filter(([, v]) => v !== undefined).map(([k, v]) => [k, String(v)])).toString();
+  return apiFetch<object[]>(`/api/admin/users${qs ? `?${qs}` : ""}`, { token });
+};
+export const getTopCities = (token: string) => apiFetch<{ name: string; country: string; stop_count: number }[]>("/api/admin/charts/top-cities", { token });
+export const getTripsPerDay = (token: string) => apiFetch<{ date: string; count: number }[]>("/api/admin/charts/trips-per-day", { token });
+export const getActivityCategories = (token: string) => apiFetch<{ category: string; count: number }[]>("/api/admin/charts/activity-categories", { token });

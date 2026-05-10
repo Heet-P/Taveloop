@@ -6,7 +6,9 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function formatDate(dateStr: string): string {
-  return new Date(dateStr).toLocaleDateString("en-US", {
+  // Ensure the date string is treated as local time by adding a midday time if it's just a date
+  const parsedStr = dateStr.includes('T') ? dateStr : `${dateStr}T12:00:00`;
+  return new Date(parsedStr).toLocaleDateString("en-US", {
     month: "short",
     day: "numeric",
     year: "numeric",
@@ -14,8 +16,8 @@ export function formatDate(dateStr: string): string {
 }
 
 export function formatDateRange(start: string, end: string): string {
-  const s = new Date(start);
-  const e = new Date(end);
+  const s = new Date(start.includes('T') ? start : `${start}T12:00:00`);
+  const e = new Date(end.includes('T') ? end : `${end}T12:00:00`);
   const sMonth = s.toLocaleDateString("en-US", { month: "short" });
   const eMonth = e.toLocaleDateString("en-US", { month: "short" });
   if (sMonth === eMonth && s.getFullYear() === e.getFullYear()) {

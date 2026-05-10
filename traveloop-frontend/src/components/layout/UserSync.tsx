@@ -22,6 +22,7 @@ export default function UserSync() {
           name: user.fullName ?? user.firstName ?? "User",
           email: user.primaryEmailAddress?.emailAddress ?? "",
           avatarUrl: user.imageUrl,
+          role: user.publicMetadata?.role as string | undefined,
         },
         token
       ).catch(() => {});

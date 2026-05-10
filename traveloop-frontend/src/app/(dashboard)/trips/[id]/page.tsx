@@ -1,3 +1,15 @@
-export default function Page() {
-  return <div className="p-8 text-[var(--text-secondary)]">Coming soon…</div>;
+"use client";
+
+import { use, useEffect } from "react";
+import { useRouter } from "next/navigation";
+
+export default function TripIndexPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
+  const router = useRouter();
+
+  useEffect(() => {
+    router.replace(`/trips/${id}/itinerary`);
+  }, [id, router]);
+
+  return null;
 }

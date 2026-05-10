@@ -13,5 +13,6 @@ router.get("/:id", requireAuth, attachUser, tripsController.getTripById);
 router.put("/:id", requireAuth, attachUser, tripsController.updateTrip);
 router.delete("/:id", requireAuth, attachUser, tripsController.deleteTrip);
 router.post("/:id/publish", requireAuth, attachUser, tripsController.publishTrip);
+router.post("/curated/:cityId", requireAuth, attachUser, tripsController.createCuratedTrip);
 
 export default router;
