@@ -1,0 +1,9 @@
+backend_prompt.md
+frontend_prompt.md
+.env
+.env.local
+.env.production
+.env.development
+traveloop-backend/node_modules
+traveloop-frontend/node_modules
+.claude/

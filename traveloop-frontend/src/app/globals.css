@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "react-loading-skeleton/dist/skeleton.css";
+
+:root {
+  --bg-base: #fffdf7;
+  --bg-card: #ffffff;
+  --bg-muted: #f5f0e8;
+
+  --primary: #e8734a;
+  --primary-hover: #d4603a;
+  --primary-light: #fbe9e2;
+
+  --accent-teal: #4aabb8;
+  --accent-teal-light: #e0f4f7;
+  --accent-yellow: #f5c842;
+  --accent-green: #6aaf7b;
+
+  --text-primary: #1e1a16;
+  --text-secondary: #6b5e52;
+  --text-muted: #a89a8e;
+
+  --border: #e8e0d5;
+  --border-focus: #e8734a;
+  --shadow-sm: 0 2px 8px rgba(30, 26, 22, 0.06);
+  --shadow-md: 0 4px 20px rgba(30, 26, 22, 0.1);
+  --shadow-card: 0 2px 12px rgba(232, 115, 74, 0.08);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "DM Sans", sans-serif;
+}
+
+body {
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+}
